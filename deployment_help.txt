@@ -1,0 +1,19 @@
+1) Postgres and Dynamodb should be running locally.
+
+2) Start nginx
+
+3) Deploy Base application
+
+a) Compile Mbp and Messaging
+mvn clean package -Dmaven.test.skip=true
+
+b) Start Wildfly Server.
+
+
+4) Start Microservice applications.
+
+Keycloak is Authorization service and so is mandetory to run to access the application.
+You can start other services which you are going to work on.
+
+
+5) Start mbpui
